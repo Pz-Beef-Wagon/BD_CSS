@@ -1,0 +1,113 @@
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+/*---------------------BORDERS-----------------------------*/
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+
+#app-mount .avatar-1BDn8e + h2 {
+  overflow: visible;
+}
+
+/*Person 1*/
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="Person 1 ID"] + h2::before{
+  content: '';
+  position: absolute;
+  height: 44px;
+  width: 44px;
+  top: 0px;
+  left: -59px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="Person 1 ID"] + h2::before {
+  height: 66px;
+  width: 66px;
+  left: -69px;
+  top: -10px;
+  z-index: 1;
+  background-image: url('https://media.discordapp.net/attachments/767441206682058782/832340936398340106/mason.png?width=670&height=670');
+}
+
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="Person 1 ID"] {
+  animation: oooh 1s, ease-in-out infinite;
+  filter: drop-shadow(0 0 10px #a989ff);
+  transition: filter 200ms ease-in-out;
+}
+
+/*Person 2*/
+
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="Person 2 ID"] + h2::before{
+  content: '';
+  position: absolute;
+  height: 44px;
+  width: 44px;
+  top: 0px;
+  left: -59px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="Person 2 ID"] + h2::before {
+  height: 71px;
+  width: 71px;
+  left: -71.6px;
+  top: -13.7px;
+  z-index: 1;
+  background-image: url('https://cdn.discordapp.com/attachments/796809866273357824/832026979313647636/unnamed.png');
+}
+
+
+/*Person 3*/
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="Person 3 ID"] + h2::before{
+  content: '';
+  position: absolute;
+  height: 44px;
+  width: 44px;
+  top: 0px;
+  left: -57px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="Person 3 ID"] + h2::before {
+  height: 71px;
+  width: 71px;
+  left: -68.6px;
+  top: -13.7px;
+  z-index: 1;
+  background-image: url('https://cdn.discordapp.com/attachments/767441206682058782/832344069564661770/jeremyb2.png');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------Keyframes------------ */
+
+@keyframes oooh {
+  to {
+    filter: drop-shadow(0 0 8px rgb(255, 255, 255));
+  }
+}
