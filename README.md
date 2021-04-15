@@ -6,5 +6,5 @@ OK so person 1 gets a pink thing person 2 gets a black thing person 3 gets blue 
 
 
 Credit:
-Imperfectwastaken- helped
+Imperfectwastaken- did the actually hard stuff
 Me: did the funny
